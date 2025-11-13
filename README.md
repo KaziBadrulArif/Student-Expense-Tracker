@@ -262,15 +262,7 @@ Views are decorated with `@never_cache` in `core/views.py` so you always fetch f
 
 ---
 
-## 📸 Screenshots
 
-> Add your own screenshots here.
-> ```
-> /docs/screenshot-1.png
-> /docs/screenshot-2.png
-> ```
-
----
 
 ## 🤝 Contributing
 
