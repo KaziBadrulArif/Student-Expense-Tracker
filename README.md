@@ -270,11 +270,7 @@ PRs welcome! Please keep commits small and include a quick before/after note for
 
 ---
 
-## 📝 License
 
-MIT — do whatever, but don’t blame us if your cat overspends on treats.
-
----
 
 ### Credits
 
