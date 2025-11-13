@@ -1,0 +1,76 @@
+# ---- OS cruft ----
+.DS_Store
+Thumbs.db
+
+# ---- Editors/IDEs ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Python / Django (server/) ----
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.python-version
+.venv/
+env/
+venv/
+pip-wheel-metadata/
+.eggs/
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+# SQLite (local dev)
+db.sqlite3
+# Local env/secrets
+.env
+.env.*
+# Django static/media (if collected locally)
+staticfiles/
+media/
+
+# ---- Node / React (client/) ----
+client/node_modules/
+client/dist/
+client/.vite/
+client/.cache/
+client/.parcel-cache/
+client/.eslintcache
+# Local env for frontend
+client/.env
+client/.env.*
+# Optional local build output
+client/build/
+
+# ---- Logs ----
+*.log
+logs/
+server.log
+
+# ---- Docker & misc ----
+# Compose override files and local envs
+docker-compose.override.yml
+*.local.yml
+
+# ---- Coverage / reports (general) ----
+coverage/
+report/
+reports/
+
+# ---- Temporary data ----
+tmp/
+temp/
+*.tmp
+
+# ---- Project data (optional) ----
+# Keep sample CSVs out of the repo if they contain real data.
+# If you want to commit the tiny demo CSV, move it under /data/demo/ and whitelist.
+data/
+!data/demo/
+!data/demo/sample_transactions.csv
